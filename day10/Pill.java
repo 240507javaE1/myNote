@@ -6,11 +6,11 @@ class Pill {//資料表 Pill 	/*免責聲明:這些奇怪用語只是讓我自�
 	private boolean isBitter;
 
 //Constructor,新增new Pill時(一定要先做的事)
-	Pill(String pillName,int numEatEachTime ) {//new Pill時(先給字串pillName,整數numEatEachTime)
+	Pill(String pillName,int numEatEachTime ) {//new Pill時(給字串pillName,整數numEatEachTime)
 		this.pillName=pillName;
 		this.numEatEachTime=numEatEachTime;
 	}
-	Pill(String pillName,int numEatEachTime,boolean isBitter ) {//new Pill時(先給字串name,整數numEatEachTime,是否isBitter)
+	Pill(String pillName,int numEatEachTime,boolean isBitter ) {//new Pill(給字串name,整數numEatEachTime,是否isBitter)
 		this.pillName=pillName;
 		this.numEatEachTime=numEatEachTime;
 		this.isBitter=isBitter;

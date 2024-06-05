@@ -5,7 +5,7 @@ class Member {//資料表 Member 	/*免責聲明:這些奇怪用語只是讓我�
 	private String whereFrom;
 
 //Constructor,新增new Member時(一定要先做的事)
-	Member(String name,String whereFrom) {//new Member時(先給字串name,字串whereFrom)
+	Member(String name,String whereFrom) {//new Member時(給字串name,字串whereFrom)
 		this.name=name;
 		this.whereFrom=whereFrom;
 	}
